@@ -9,6 +9,8 @@ the .env file is included in this file but should not be pushed for the project 
 
 if you want to have wordpress on your localhost modify "DOMAIN_NAME=joerober.42.fr" to "DOMAIN_NAME=localhost"
 
+if you are not using this project on linux you will need to modify the volume location in the srcs/docker-compose.yml and change "/home/login/data" to "/Users/login/data"
+
 makefile usage:
 
 - make up to build and start container
